@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/twd-movie-app/static/css/main.5383921c.chunk.css",
+    "main.js": "/twd-movie-app/static/js/main.b8f4e379.chunk.js",
+    "main.js.map": "/twd-movie-app/static/js/main.b8f4e379.chunk.js.map",
+    "runtime-main.js": "/twd-movie-app/static/js/runtime-main.3e195289.js",
+    "runtime-main.js.map": "/twd-movie-app/static/js/runtime-main.3e195289.js.map",
+    "static/js/2.fdeeaad0.chunk.js": "/twd-movie-app/static/js/2.fdeeaad0.chunk.js",
+    "static/js/2.fdeeaad0.chunk.js.map": "/twd-movie-app/static/js/2.fdeeaad0.chunk.js.map",
+    "index.html": "/twd-movie-app/index.html",
+    "static/css/main.5383921c.chunk.css.map": "/twd-movie-app/static/css/main.5383921c.chunk.css.map",
+    "static/js/2.fdeeaad0.chunk.js.LICENSE.txt": "/twd-movie-app/static/js/2.fdeeaad0.chunk.js.LICENSE.txt",
+    "static/media/favourite_icon.a44b1c26.png": "/twd-movie-app/static/media/favourite_icon.a44b1c26.png",
+    "static/media/favourite_icon_filled.774945f7.png": "/twd-movie-app/static/media/favourite_icon_filled.774945f7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e195289.js",
+    "static/js/2.fdeeaad0.chunk.js",
+    "static/css/main.5383921c.chunk.css",
+    "static/js/main.b8f4e379.chunk.js"
+  ]
+}

@@ -1,0 +1,29 @@
+// ===========================================================================
+// Imports
+
+// Google Fonts - Import
+@import url("https://use.typekit.net/jbp8oya.css");
+
+// Settings
+@import "./base/settings";
+
+// Resets
+@import "./base/reset";
+// Components
+@import "./components/_about.scss";
+@import "./components/_actor";
+@import "./components/_body.scss";
+@import "./components/_favourites";
+@import "./components/footer";
+@import "./components/_header.scss";
+@import "./components/home";
+@import "./components/load-more-button";
+@import "./components/movie-info-bar";
+@import "./components/movie-info";
+@import "./components/movie-thumb";
+@import "./components/movie";
+@import "./components/nav-bar";
+@import "./components/navigation";
+@import "./components/search-bar";
+@import "./components/six-col-grid";
+@import "./components/spinner";

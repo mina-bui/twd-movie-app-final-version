@@ -1,0 +1,121 @@
+// ===========================================================================
+// Footer
+
+footer {
+    text-align: center;
+    bottom: 0px;
+
+    hr {
+        border: 0;
+        height: 1px;
+        background: $darkLilac;
+        background-image: linear-gradient(to right, $darkIndigo, $darkBlue, $darkIndigo);
+        margin: 25px 0px 75px 0px;
+    }
+
+    p {
+        font-size: 0.9em;
+        color: $lilac;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .social {
+        .onhover {
+            display: none;
+        }
+        .surround:hover span.initial {
+            display: none;
+        }
+        .surround:hover span.onhover {
+            display: inline-block;
+        }
+        img {
+            width: 50px;
+            padding: 10px;
+        }
+        /* decreased opacity on hover */
+        img:hover {
+            opacity: 0.8;
+        }
+    }
+
+    h3 {
+        color: $bodyFont;
+        margin-top: 50px;
+        line-height: 0.5;
+    }
+
+    h5 {
+        color: $bodyFont;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        line-height: 0.5;
+    }
+
+    // ===========================================================================
+    // Desktop Version
+
+    @media only screen and (min-width: $tablet) {
+        text-align: left;
+
+        hr {
+            margin: 50px 0px 50px 0px;
+        }
+        .copyright {
+            text-align: center;
+            margin: 0px 0px 0px 0px;
+        }
+        .contact {
+            grid-area: contact;
+        }
+        .contact-info {
+            grid-area: contact-info;
+        }
+        .social {
+            grid-area: social;
+            margin: 0px 125px 0px 125px;
+            img {
+                width: 40px;
+            }
+        }
+        h3 {
+            margin-top: 10px;
+        }
+        h5 {
+            margin-top: 25px;
+        }
+        .location {
+            grid-area: location;
+        }
+        .address {
+            grid-area: address;
+        }
+        .empty {
+            grid-area: empty;
+        }
+        .footer-grid {
+            display: grid;
+            margin: 25px;
+            justify-content: center;
+            grid-template-areas:
+                "contact        contact     location"
+                "contact-info   social      address";
+        }
+    }
+
+    // ===========================================================================
+    // Tablet Version
+
+    @media only screen and (min-width: $mobile) and (max-width: $desktop) {
+        hr {
+            margin: 0px 0px 100px 0px;
+        }
+        .footer-grid {
+            margin: 0px;
+        }
+        .social {
+            margin: 0px 25px 0px 25px;
+        }
+    }
+}

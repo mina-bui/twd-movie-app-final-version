@@ -1,0 +1,197 @@
+// ===========================================================================
+// Movie Thumb - element on movie grid
+
+.moviethumb-details {
+  width: auto;
+  height: 50px;
+}
+.movieinfo {
+  background-size: cover !important;
+  background-position: center !important;
+  width: 100%;
+  height: 600px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  animation: animateMovieinfo 1s;
+}
+
+.moviethumb-title {
+  color: $bodyFont;
+  margin: 5px 0px;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.moviethumb-title:hover {
+  overflow: visible;
+  white-space: normal;
+}
+
+.moviethumb-rating {
+  padding: 10px 5px;
+  margin: 20px 5px 20px 5px;
+  color: $green;
+  border: 2px solid $green;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.moviethumb-overview {
+  padding-top: 6px;
+  font-size: 0.8em;
+}
+
+.moviethumb-release {
+  padding-top: 8px;
+  font-size: 0.8em;
+}
+
+.moviethumb-release,
+.moviethumb-overview {
+  color: $bodyFont;
+  margin: 5px 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+// ===========================================================================
+// Tablet Version
+
+@media screen and (max-width: 600px) {
+  .moviethumb-overview,
+  .moviethumb-release,
+  .moviethumb-moreinfo,
+  .moviethumb-rating {
+    font-size: 0.8em;
+  }
+  .moviethumb-rating {
+    padding: 10px 5px 0px 5px;
+    margin: 20px 5px 0px 5px;
+    color: $green;
+    border: 2px solid $green;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    align-self: flex-end;
+  }
+  .moviethumb-title:hover {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+.moviethumb-moreinfo {
+  text-align: left;
+  align-self: center;
+  font-size: 0.8em;
+  bottom: 0;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.moviethumb-moreinfo-rating {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+@keyframes animateMovieinfo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// Movie info "card" on single movie page
+.movieinfo-content {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: rgb(18, 22, 39, 0.95);
+  position: relative;
+}
+
+// ===========================================================================
+// Mobile Version
+@media screen and (max-width: $tablet) {
+  .movieinfo-content {
+    background: rgb(18, 22, 39, 0.7);
+  }
+  .movieinfo-text h1,
+  .movieinfo-text h3 {
+    color: $lighterHeaderNav;
+  }
+  .movieinfo-text p {
+    color: $lightBodyFont;
+  }
+  .moviethumb-moreinfo {
+    padding-top: 50px;
+  }
+}
+
+.movieinfo-thumb {
+  width: 350px;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+}
+
+.movieinfo-text {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: auto;
+  padding: 40px;
+  color: $bodyFont;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: absolute;
+  left: 360px;
+}
+
+.movieinfo-text h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  margin: 0;
+}
+
+.movieinfo-text h3 {
+  font-size: 16px;
+  line-height: 0;
+  margin-top: 30px;
+}
+
+.movieinfo-text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.rating {
+  width: 250px;
+  height: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.score {
+  position: absolute;
+  margin: 0;
+  right: 0px;
+  top: -3px;
+}
+
+.director {
+  margin: 0;
+}

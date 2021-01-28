@@ -1,0 +1,62 @@
+// ===========================================================================
+// Favourites Page - Mobile Version
+
+// Favorites Button (on main pages and single pages)
+.btn-favourite {
+    display: block;
+    width: 50px;
+    height: auto;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.favourites-section {
+    padding: 5px 25px 50px 25px;
+    margin: 15px 0px 0px 0px;
+
+    h2 {
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+
+    p img {
+        height: 20px;
+        width: 20px;
+        margin: 0px 10px;
+        vertical-align: baseline;
+    }
+
+    .favourite-tutorial-icons {
+        text-align: center;
+
+        img {
+            height: 80px;
+            width: 80px;
+            padding: 15px;
+            margin: 0px;
+        }
+    }
+
+    // ===========================================================================
+    // Desktop Version
+
+    @media only screen and (min-width: $tablet) {
+        h2 {
+            padding: 20px 0px 50px 0px;
+        }
+
+        p img {
+            height: 50px;
+            width: 50px;
+            margin: 0px 10px;
+            vertical-align: sub;
+        }
+
+        .favourite-tutorial-icons {
+            text-align: left;
+            margin: 0px 0px 50px 0px;
+        }
+    }
+}

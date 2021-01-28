@@ -1,0 +1,43 @@
+// ===========================================================================
+// About Page - Mobile Version
+
+.about-section {
+    padding: 5px 25px 100px 25px;
+
+    p,
+    h2,
+    h3,
+    div {
+        text-align: center;
+    }
+
+    h2 {
+        padding: 20px 0px 20px 0px;
+    }
+
+    h3 {
+        padding: 80px 0px 5px 0px;
+    }
+
+    div.tmdb-logo {
+        margin: 100px 0px 0px 0px;
+    }
+    img {
+        height: auto;
+        width: 75px;
+    }
+
+    // ===========================================================================
+    // Desktop / Tablet Version
+
+    @media screen and (min-width: $tablet) {
+        .about-section-wrapper {
+            display: flex;
+            justify-content: center;
+
+            p {
+                max-width: 700px;
+            }
+        }
+    }
+}

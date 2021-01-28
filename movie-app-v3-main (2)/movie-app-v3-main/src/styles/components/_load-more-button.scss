@@ -1,0 +1,26 @@
+// ===========================================================================
+// Load More Button - loads more button when clicked
+.loadmorebtn {
+  background: $green;
+  width: 200px;
+  min-height: 50px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin: 0 auto;
+}
+
+.loadmorebtn p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  padding: 10px;
+  color: $darkIndigo;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+// Decreased opacity on hover
+.loadmorebtn:hover {
+  opacity: 0.8;
+}

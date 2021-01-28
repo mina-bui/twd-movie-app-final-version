@@ -1,0 +1,44 @@
+// ===========================================================================
+// Sliding navigation bar - activated when user presses hamburger menu
+
+// Logo for Sidemenu
+.side-home-logo,
+.side-favourites-logo,
+.side-about-logo img {
+    width: 40px;
+}
+
+.side-home-name,
+.side-favourites-name,
+.side-about-name {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+// Grids for Each Row
+.side-about-button,
+.side-favourites-button,
+.side-home-button {
+    display: flex;
+    justify-content: space-between;
+}
+.side-about-name,
+.side-favourites-name,
+.side-home-name {
+    margin-top: 5px;
+}
+
+.side-nav__container {
+    background-color: $darkTeal;
+}
+
+.nav-bar-logo {
+    position: absolute;
+    left: 64px;
+    top: 10px;
+}
+
+.nav-bar-logo img {
+    width: 180px;
+}

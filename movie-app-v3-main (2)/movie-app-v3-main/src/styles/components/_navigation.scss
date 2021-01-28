@@ -1,0 +1,35 @@
+// ===========================================================================
+// Navigation - Main navigation below logo
+
+.main-navigation {
+  width: 100%;
+  height: 50px;
+  background: $darkIndigo;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.main-navigation-content {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main-navigation-content p {
+  font-family: $boldFont;
+  font-size: 1.2em;
+  font-weight: 700;
+  float: left;
+  color: $green;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+}
+
+.nav-back-button:active,
+.nav-back-button:hover {
+  color: $lilac;
+}
+

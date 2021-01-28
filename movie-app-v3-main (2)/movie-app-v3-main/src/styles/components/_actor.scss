@@ -1,0 +1,32 @@
+// ===========================================================================
+// Actors in Movie
+
+.actor {
+  box-sizing: border-box;
+
+  img {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0px 0px 10px 0px;
+    box-sizing: border-box;
+  }
+
+  .actor-name {
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    width: 40%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+  }
+
+  .actor-character {
+    font-size: 0.9em;
+    font-weight: 600;
+    display: block;
+    margin: 0px 0px 10px 0px;
+    width: 80%;
+    box-sizing: border-box;
+  }
+}

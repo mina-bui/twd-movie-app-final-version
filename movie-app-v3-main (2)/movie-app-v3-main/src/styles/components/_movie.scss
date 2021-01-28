@@ -1,0 +1,22 @@
+// ===========================================================================
+// Movie - Main movie grid
+
+.movie {
+  margin-bottom: 100px;
+}
+
+.movie-grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.movie-grid h1 {
+  font-family: "Roboto", sans-serif;
+  color: $green;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 5px 0px;
+  padding: 0px 0px 25px 0px;
+  color: $green;
+}

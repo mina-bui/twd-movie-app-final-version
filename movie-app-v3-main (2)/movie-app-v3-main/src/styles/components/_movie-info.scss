@@ -1,0 +1,150 @@
+// ===========================================================================
+// Movie Info - Shows title, poster, overview, rating, director
+
+.movieinfo {
+  background-size: cover !important;
+  background-position: center !important;
+  width: 100%;
+  height: 600px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  animation: animateMovieinfo 1s;
+}
+
+@keyframes animateMovieinfo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.movieinfo-content {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: black;
+  position: relative;
+}
+
+.movieinfo-text h1 {
+  font-family: "Roboto", sans-serif;
+  color: $green;
+  font-weight: 700;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  margin: 5px 0px;
+}
+
+.movieinfo-thumb {
+  width: 350px;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+}
+
+.movieinfo-text {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: auto;
+  padding: 40px;
+  color: $bodyFont;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: absolute;
+  left: 360px;
+}
+
+.movieinfo-text h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  margin: 0;
+}
+
+.movieinfo-text h3 {
+  font-size: 16px;
+  line-height: 0;
+  margin-top: 30px;
+}
+
+.movieinfo-text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.imdb-rating {
+  padding: 10px 5px;
+  margin: 20px 0px 20px 0px;
+  border: 2px solid $green;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+}
+
+.director {
+  margin: 0;
+}
+
+@media screen and (max-width: $tablet) {
+  .movieinfo-content {
+    .movieinfo-thumb {
+      display: none;
+    }
+    .movieinfo-text {
+      left: 0px;
+      h1 {
+        font-size: 1.2em;
+      }
+      h3 {
+        font-size: 1.1em;
+      }
+      p {
+        font-size: 1em;
+        line-height: 1.4;
+      }
+      .imdb-rating {
+        font-size: 0.9em;
+        padding: 7px 5px;
+        margin: 20px 0px 20px 0px;
+        border: 2px solid $green;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// ===========================================================================
+// Tablet Version
+
+@media screen and (min-width: $tablet) and (max-width: $desktop) {
+  .movieinfo-content {
+    .movieinfo-text {
+      h1 {
+        font-size: 1.5em;
+      }
+      h3 {
+        font-size: 1.3em;
+      }
+      p {
+        font-size: 1.1em;
+        line-height: 1.4;
+      }
+      .imdb-rating {
+        font-size: 0.9em;
+        padding: 7px 5px;
+        margin: 20px 0px 20px 0px;
+        border: 2px solid $green;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+      }
+    }
+  }
+}

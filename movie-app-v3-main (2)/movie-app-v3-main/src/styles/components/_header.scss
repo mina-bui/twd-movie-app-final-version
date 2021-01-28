@@ -1,0 +1,67 @@
+// ===========================================================================
+// Header
+
+.movie-site-header {
+  width: 100%;
+  height: 100px;
+  background: $darkLilac;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+  .movie-site-header-content {
+    max-width: 1280px;
+    min-height: 100px;
+    height: auto;
+    padding: 20px 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .movie-site-logo {
+    width: 175px;
+    float: left;
+    z-index: 1;
+    padding-top: 27px;
+  }
+
+  // Hamburger Menu
+  .nav-bar-styling {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    fill: $green;
+  }
+
+  .nav-bar-styling svg {
+    height: 50px;
+    width: 50px;
+    fill: $green;
+  }
+
+  // ===========================================================================
+  // Mobile Version
+
+  @media screen and (max-width: $tablet) {
+    .movie-site-header-content {
+      max-width: 1280px;
+      min-height: 0px;
+    }
+
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+
+  // Hamburger Menu
+  .nav-bar-styling {
+    right: 30px;
+  }
+
+  // 
+  .movie-site-logo {
+    width: 200px;
+
+  }
+}
