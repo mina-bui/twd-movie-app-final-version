@@ -19,9 +19,12 @@ npm start
 
 ### Built with
 
+
 * [Javascript](https://www.javascript.com/)
 * [React.js create-react-app](https://create-react-app.dev/)
 * [Sass](https://sass-lang.com/)
+* [HTML](https://html.spec.whatwg.org/)
+* [Google Fonts](https://fonts.google.com/)
 * [npm](https://www.npmjs.com/)
 * [Node.js](https://nodejs.org/en/)
 
