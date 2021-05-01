@@ -21,7 +21,6 @@ npm start
 * [Sass](https://sass-lang.com/)
 * [npm](https://www.npmjs.com/)
 * [Node.js](https://nodejs.org/en/)
-* 
 
 ## Acknowledgments
 
