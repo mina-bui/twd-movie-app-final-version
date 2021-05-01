@@ -4,7 +4,8 @@ Filmdex is a movie database web application that allows users to view, sort, and
 
 The web application was created using ReactJS by first installing NPM, node,js, and create-react-app, and then pulling data from the The Movie Database (TMDb) API. My role was focused on responsive design and on Sass styling. Specifically, my focus was to create the individual components, being the homepage grid, the single movie layout, as well as the footer.
 
-[Link to Deployed Version](https://mbui.bcitwebdeveloper.ca/twd-movie-app/)
+* [Link to deployed version](https://mbui.bcitwebdeveloper.ca/twd-movie-app/)
+* [Read more on my portfolio site](https://www.minabui.com/movieapp)
 
 ## How to Load the App
 
