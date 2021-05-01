@@ -1,6 +1,6 @@
 # Filmdex - React Movie App
 
-![picture](img/readme-shot.png)
+![picture](readme-shot.png)
 
 Filmdex is a movie database web application that allows users to view, sort, and search for movies in a database, which was built as a project during BCIT's Technical Web Designer program. It has a search bar, that shows live search results, as well as a Favorites List that allows users to add their favorite films without logging in.
 
