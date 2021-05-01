@@ -1,5 +1,7 @@
 # Filmdex - React Movie App
 
+![picture](img/readme-shot.png)
+
 Filmdex is a movie database web application that allows users to view, sort, and search for movies in a database, which was built as a project during BCIT's Technical Web Designer program. It has a search bar, that shows live search results, as well as a Favorites List that allows users to add their favorite films without logging in.
 
 The web application was created using ReactJS by first installing NPM, node,js, and create-react-app, and then pulling data from the The Movie Database (TMDb) API. My role was focused on responsive design and on Sass styling. Specifically, my focus was to create the individual components, being the homepage grid, the single movie layout, as well as the footer.
